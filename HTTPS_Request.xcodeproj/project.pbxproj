@@ -13,6 +13,8 @@
 		3D971CB22A465D19000A53AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D971CB12A465D19000A53AC /* ContentView.swift */; };
 		3D971CB42A465D19000A53AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D971CB32A465D19000A53AC /* Assets.xcassets */; };
 		3D971CB82A465D19000A53AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D971CB72A465D19000A53AC /* Preview Assets.xcassets */; };
+		3D971CBF2A465D3A000A53AC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D971CBE2A465D3A000A53AC /* Network.swift */; };
+		3D971CC12A465D92000A53AC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D971CC02A465D92000A53AC /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3D971CB32A465D19000A53AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D971CB52A465D19000A53AC /* HTTPS_Request.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HTTPS_Request.entitlements; sourceTree = "<group>"; };
 		3D971CB72A465D19000A53AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D971CBE2A465D3A000A53AC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		3D971CC02A465D92000A53AC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				3D971CAA2A465D19000A53AC /* HTTPS_RequestApp.swift */,
-				3D971CAC2A465D19000A53AC /* Persistence.swift */,
+				3D971CBE2A465D3A000A53AC /* Network.swift */,
 				3D971CB12A465D19000A53AC /* ContentView.swift */,
+				3D971CC02A465D92000A53AC /* User.swift */,
+				3D971CAC2A465D19000A53AC /* Persistence.swift */,
 				3D971CB32A465D19000A53AC /* Assets.xcassets */,
 				3D971CB52A465D19000A53AC /* HTTPS_Request.entitlements */,
 				3D971CAE2A465D19000A53AC /* HTTPS_Request.xcdatamodeld */,
@@ -145,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D971CBF2A465D3A000A53AC /* Network.swift in Sources */,
 				3D971CB02A465D19000A53AC /* HTTPS_Request.xcdatamodeld in Sources */,
+				3D971CC12A465D92000A53AC /* User.swift in Sources */,
 				3D971CAB2A465D19000A53AC /* HTTPS_RequestApp.swift in Sources */,
 				3D971CB22A465D19000A53AC /* ContentView.swift in Sources */,
 				3D971CAD2A465D19000A53AC /* Persistence.swift in Sources */,
